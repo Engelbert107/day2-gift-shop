@@ -20,7 +20,7 @@ Numbers with leading zeros are not considered valid IDs.
 The input consists of several ID ranges separated by commas: stard-end, start-end, ...
 
 
-<u>The goal is to find all invalid IDs inside these ranges and return their total sum.</u>
+<ins>The goal is to find all invalid IDs inside these ranges and return their total sum.</ins>
 
 ---
 
