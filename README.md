@@ -20,7 +20,7 @@ Numbers with leading zeros are not considered valid IDs.
 The input consists of several ID ranges separated by commas: stard-end, start-end, ...
 
 
-The goal is to find all invalid IDs inside these ranges and return their total sum.
+<u>The goal is to find all invalid IDs inside these ranges and return their total sum.</u>
 
 ---
 
@@ -78,7 +78,7 @@ The pattern can be any length as long as it repeats completely.
 
 33 + 88 + 9999 + 567567 = 577687
 
-### Output 
+### Output (Part One)
 
 Answer: 577687
 
