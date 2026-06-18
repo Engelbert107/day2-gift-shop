@@ -36,7 +36,7 @@ Examples:
 - 123123 = 123 + 123
 
 
-## Example (Part One)
+## Example 
 
 ### Input
 
@@ -64,7 +64,7 @@ Examples:
 Answer: 577687
 
 
-## Solution Approach (Part One)
+## Solution Approach 
 
 For each ID in every provided range:
 
@@ -99,7 +99,7 @@ Examples:
 The pattern can be any length as long as it repeats completely.
 
 
-## Example (Part Two)
+## Example 
 
 ### Input
 
@@ -124,7 +124,7 @@ The pattern can be any length as long as it repeats completely.
 Answer: 244889
 
 
-## Solution Approach (Part Two)
+## Solution Approach 
 
 For each ID in every provided range:
 
