@@ -31,38 +31,17 @@ The input consists of several ID ranges separated by commas: stard-end, start-en
 An invalid ID is a sequence of digits repeated **exactly twice**.
 
 Examples:
-55 = 5 + 5
-6464 = 64 + 64
-123123 = 123 + 123
+- 55 = 5 + 5
+- 6464 = 64 + 64
+- 123123 = 123 + 123
 
 
+## Example (Part One)
 
----
-
-# Part Two
-
-## Updated Rule
-
-The Elf was using more repeating patterns.
-
-An ID is now invalid if it contains a sequence of digits repeated **two or more times**.
-
-Examples:
-999 = 9 repeated 3 times
-123123123 = 123 repeated 3 times
-1212121212 = 12 repeated 5 times
-1111111 = 1 repeated 7 times
-
-
-The pattern can be any length as long as it repeats completely.
-
----
-
-# Example (Part One)
-
-## Input
+### Input
 
 30-35,88-90,444-450,9999-10005,567567-567568
+
 
 ### Analysis 
 
@@ -74,13 +53,16 @@ The pattern can be any length as long as it repeats completely.
 | `9999-10005` | `9999` | 9999 |
 | `567567-567568` | `567567` | 567567 |
 
+
 ### Calculation
 
 33 + 88 + 9999 + 567567 = 577687
 
-### Output (Part One)
+
+### Output 
 
 Answer: 577687
+
 
 ## Solution Approach (Part One)
 
@@ -98,9 +80,28 @@ Example: 123123
 - => Invalid ID
 
 
-# Example (Part Two)
 
-## Input
+# Part Two
+
+## Updated Rule
+
+The Elf was using more repeating patterns.
+
+An ID is now invalid if it contains a sequence of digits repeated **two or more times**.
+
+Examples:
+- 999 = 9 repeated 3 times
+- 123123123 = 123 repeated 3 times
+- 1212121212 = 12 repeated 5 times
+- 1111111 = 1 repeated 7 times
+
+
+The pattern can be any length as long as it repeats completely.
+
+
+## Example (Part Two)
+
+### Input
 
 8-15,90-100,444-450,123123-123130,121212-121215
 
@@ -123,7 +124,7 @@ Example: 123123
 Answer: 244889
 
 
-# Solution Approach (Part Two)
+## Solution Approach (Part Two)
 
 For each ID in every provided range:
 
