@@ -54,8 +54,7 @@ For each ID in every provided range:
 3. Check if both halves are identical.
 4. If they match, the ID is invalid and is added to the total.
 
-Example:
-123123
-First half: 123
-Second half: 123
-=> Invalid ID
+Example: 123123
+- First half: 123
+- Second half: 123
+- => Invalid ID
